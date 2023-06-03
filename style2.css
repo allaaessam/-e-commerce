@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+.top{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.top .search input {
+    background-color:white;
+    border: none; 
+    outline: none;
+    height: 25px ;
+    margin-left: 20px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.top .search input:hover{
+    transform: translate(-8%,0%);
+    transition: all 0.5 ease;
+} 
+.top .search .fa-magnifying-glass{
+    color: rgb(138, 138, 138);
+}
+.top .name button {
+    margin-right: 30px ;
+    width: 120px;
+    padding: 5px ;
+    background-color: white;
+}
+.top .name button a{
+    text-decoration: none;
+}
+.top .name button a p{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+
+}
+.top .icon a{
+    color: rgb(139, 138, 138);
+}
+.top .icon i{
+    margin-right: 15px;
+}
+.top .icon .fa-user:hover{
+    color: black;
+}
+.top .icon .fa-cart-shopping:hover{
+    color: black;
+}
+/* END NAV PAR */
+
+/* START nav_par */
+.nav_par .choose{
+    width: 100%;
+    height:70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_par .choose a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+.nav_par .choose a:hover{
+    color: rgb(158, 5, 158);
+}
+.nav_par .choose i{
+    margin: 5px 0px 0px 8px;
+    
+}
+.nav_par .choose i:hover{
+    color: rgb(158, 5, 158);
+}
+.nav_par .choose .HOME{
+    display: flex;
+}
+.nav_par .choose .ABOUT{
+    display: flex;
+    color: rgb(214, 4, 214) ;
+
+}
+/*   END nav_par   */
+
+/* START home_about */
+.home_about{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(237, 236, 236);
+    display: flex;
+    align-items: center;
+    
+}
+.home_about div{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.home_about div .Home{
+    text-decoration: none;
+    margin-right: 8px;
+    color: black;
+}
+.home_about div .About{
+    text-decoration: none;
+    margin-left: 8px;
+    color: rgb(214, 4, 214);
+}
+/*     START  how_we_started   */
+.how_we_started{
+    width: 100%;
+    height: 700PX;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+ 
+.how_we_started  .img{
+    margin-right: 50px;
+}
+.how_we_started  .writer{
+    width: 33%;
+    margin-left: 90px;
+}
+.how_we_started .writer h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.how_we_started .writer p{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 30px;
+    line-height: 1.5;
+
+}
+/* END how_we_started */
+
+/* START the_team */
+
+.the_team{
+    width: 100%;
+    height: 600px;
+    
+}
+.the_team .writer{
+    text-align: center;
+    margin: 140px 0px 90px 0px;
+}
+
+.the_team .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.the_team .container div{
+    width: 18%;
+    margin-right: 25px ;
+}
+/*  */
+.the_team .container .Elizabeth img{
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.the_team .container .Elizabeth p{
+    color: rgb(159, 156, 156);
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 2;
+
+}
+/*  */
+/*  */
+.the_team .container .Jennifer img{
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.the_team .container .Jennifer p{
+    color: rgb(159, 156, 156);
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 2;
+
+}
+/*  */
+/*  */
+.the_team .container .Patrick img{
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.the_team .container .Patrick p{
+    color: rgb(159, 156, 156);
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 2;
+
+}
+/*  */
+/*  */
+.the_team .container .Mike img{
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.the_team .container .Mike p{
+    color: rgb(159, 156, 156);
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 2;
+
+}
+/*  */
+/*    END the_team    */
+
+/* START free */
+.free{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+.free .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.free .car{
+    display: flex;
+    width: 18%;  
+    margin-top: 20px; 
+}
+
+.free .refresh{
+    display: flex;
+    width: 18%;
+    margin-top: -5px;   
+}
+.free .question{
+    display: flex;
+    justify-content: space-around; 
+    width: 18%;   
+}
+.free div i{
+    font-size: 25px;
+    margin-right: 20px;
+    color: rgb(95, 80, 180) ;
+}
+.free div p{
+    color: rgb(108, 107, 107);
+    line-height: 1.5;
+    
+}
+/* END free */
+
+/*     START  footer  */
+footer{
+    width: 100%;
+    height:500px;
+    margin-top: 50px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer .container .Navigations{
+    margin-right: 30px;
+}
+footer .container .Navigations h2{
+ margin-bottom: 35px;
+}
+footer .container .Navigations .all{
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .Navigations .all div{
+    margin-right: 60px;
+}
+footer .container .Navigations .all .Sell{
+    margin-right: 100px;
+}
+footer .container .Navigations .all div p{
+    color: gray;
+    line-height: 2;
+}
+
+
+footer .container .Promo{
+    margin-right: 40px;
+}
+footer .container .Promo h2{
+    margin-bottom: 40px;
+}
+footer .container .Promo div{
+    margin-top: 20px;
+}
+footer .container .Promo div a{
+    text-decoration: none;
+    color: #8b38df;
+}
+footer .container .Promo div p{
+    color: gray;
+    margin-top: 5px;
+}
+
+footer .container .Contact h2{
+    margin-bottom: 40px;
+}
+footer .container .Contact .addr{
+    margin-bottom: 60px;
+
+}
+footer .container .Contact .address {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+footer .container .Contact .address i{
+    margin-right: 15px;
+    color: #821be9;
+
+}
+footer .container .Contact .Subscribe {
+    margin-left: 20px;
+}
+footer .container .Contact .Subscribe h3{
+    margin-bottom: 15px;
+}
+footer .container .Contact .Subscribe .send .Email{
+    padding: 10px;
+    width: 260px;
+    position: relative;
+    outline: none;
+}
+footer .container .Contact .Subscribe .send .submit{
+    width: 70px;
+    background-color: #821be9;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-102%,5%);
+}
+footer .Copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px -30px ;
+}
+footer .Copyright p{
+    color: gray;
+}
+footer .Copyright a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #821be9;
+}
+/* END  FOOTER*/

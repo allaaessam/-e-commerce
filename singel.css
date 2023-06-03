@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+/* START TOP */
+.top{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.top .search input {
+    background-color:white;
+    border: none; 
+    outline: none;
+    height: 25px ;
+    margin-left: 20px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.top .search input:hover{
+    transform: translate(-8%,0%);
+    transition: all 0.5 ease;
+} 
+.top .search .fa-magnifying-glass{
+    color: rgb(138, 138, 138);
+}
+.top .name button {
+    margin-right: 30px ;
+    width: 120px;
+    padding: 5px ;
+    background-color: white;
+}
+.top .name button a{
+    text-decoration: none;
+}
+.top .name button a p{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+
+}
+.top .icon a{
+    color: rgb(139, 138, 138);
+}
+.top .icon i{
+    margin-right: 15px;
+}
+.top .icon .fa-user:hover{
+    color: black;
+}
+.top .icon .fa-cart-shopping:hover{
+    color: black;
+}
+/* END TOP */
+
+/* START nav_par */
+.nav_par .choose{
+    width: 100%;
+    height:70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_par .choose a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+.nav_par .choose a:hover{
+    color: rgb(158, 5, 158);
+}
+.nav_par .choose i{
+    margin: 5px 0px 0px 8px;
+    
+}
+.nav_par .choose i:hover{
+    color: rgb(158, 5, 158);
+}
+.nav_par .choose .HOME{
+    display: flex;
+}
+.nav_par .choose .ABOUT{
+    display: flex;
+
+}
+.nav_par .choose .Shop{
+    color: rgb(158, 5, 158) ;
+} 
+
+/*   END nav_par   */
+
+/* START home_about */
+.home_about{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(237, 236, 236);
+    display: flex;
+    align-items: center;
+    
+}
+.home_about div{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.home_about div .Home{
+    text-decoration: none;
+    margin-right: 8px;
+    color: black;
+}
+.home_about div .Tank{
+    text-decoration: none;
+    margin-left: 8px;
+    color: rgb(214, 4, 214);
+}
+/*     END  home_about   */
+/* START Tank_Top_T-Shirt */
+.Tank_Top_T-Shirt{
+    width: 100%;
+    height: 600px;
+
+}
+.Tank_Top_T-Shirt .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.Tank_Top_T-Shirt .container .image{
+    margin-left: 10%;
+
+}
+.Tank_Top_T-Shirt .container .writer{
+    width: 35%;
+    margin-left: 10%;
+}
+.Tank_Top_T-Shirt .container .writer h1{
+    font-size: 30px ;
+    margin-bottom: 20px;
+}
+
+.Tank_Top_T-Shirt .container .writer p{
+    font-size: 15px;
+    color: gray;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.Tank_Top_T-Shirt .container .writer h3{
+    font-size: 25px;
+    color:  rgb(158, 5, 158) ;
+    margin-bottom: 20px;
+}
+.Tank_Top_T-Shirt .container .writer .size label{
+    margin-right: 15px;
+}
+.Tank_Top_T-Shirt .container .writer .choose{
+    margin-top: 30px;
+}
+.Tank_Top_T-Shirt .container .writer .choose .number {
+    width: 120px;
+    height: 41px;
+    background-color: white;
+    /* border: none; */
+    position: relative;
+    
+}
+.Tank_Top_T-Shirt .container .writer .choose .plus{
+    width: 30px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-400% ,2%);
+    /* z-index: ; */
+
+
+}
+.Tank_Top_T-Shirt .container .writer .choose .plus:hover{
+    background-color: #821be9;
+    color: white;
+}
+.Tank_Top_T-Shirt .container .writer .choose .manes{
+    width: 30px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    transform: translate(-100% ,2%);
+    /* z-index: ; */
+}
+.Tank_Top_T-Shirt .container .writer .choose .manes:hover{
+    background-color: #821be9;
+    color: white;
+
+
+}
+.Tank_Top_T-Shirt .container .add{
+    transform: translate(0% , 120%);
+
+}
+
+.Tank_Top_T-Shirt .container .add button{
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    background-color: #821be9;
+    border: none;
+    border-radius: 5px;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    
+    
+}
+.Tank_Top_T-Shirt .container .add button a{
+    text-decoration: none;
+    color: white;
+}
+.Tank_Top_T-Shirt .container .add button:hover{
+    transform: scale(1.2);
+    transform: translate(0%,-15%);
+    box-shadow: 1px 0px  5px 0px #181717 ;
+}
+/* END Tank_Top_T-Shirt */
+
+/* START Featured */
+.Featured{
+    width: 100%;
+    height: 700px ;
+    background-color: rgb(245, 245, 245);
+    margin-top: 100px;
+}
+.Featured .writer hr {
+    width: 50px;
+    height: 5px;
+    background-color: #821be9; 
+    border-radius: 10px;
+    transform: translate(230% , -800%);    
+}
+
+.Featured .writer{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.Featured .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.Featured .container .tank{
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    margin-right: 40px;
+    box-shadow: 0 0 5px 5px #ddd ;
+}
+.Featured .container .tank div{
+    margin-top: 28px;
+}
+.Featured .container .tank div a{
+    text-decoration: none;
+    color: #821be9 ;
+    font-size: 17px;
+}
+.Featured .container .tank div a h4{
+    margin-bottom: 10px;
+}
+.Featured .container .tank div p{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.Featured .container .corater{
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    margin-right: 40px;
+    box-shadow: 0 0 5px 5px #ddd ;
+}
+.Featured .container .corater div{
+    margin-top: 65px;
+}
+.Featured .container .corater div a{
+    text-decoration: none;
+    color: #821be9;
+    font-size: 17px;
+}
+.Featured .container .corater div a h4{
+    margin-bottom: 10px;
+}
+.Featured .container .corater div p{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.Featured .container .polo{
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    margin-right: 40px;
+    box-shadow: 0 0 5px 5px #ddd ;
+}
+.Featured .container .polo div{
+    margin-top: 28px;
+}
+.Featured .container .polo div a{
+    text-decoration: none;
+    color: #821be9;
+    font-size: 17px;
+}
+.Featured .container .polo div a h4{
+    margin-bottom: 10px;
+}
+.Featured .container .polo div p{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+}
+/*      END Featured      */
+
+/*     START  footer  */
+footer{
+    width: 100%;
+    height:500px;
+    margin-top: 50px;
+
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer .container .Navigations{
+    margin-right: 30px;
+}
+footer .container .Navigations h2{
+ margin-bottom: 35px;
+}
+footer .container .Navigations .all{
+    display: flex;
+    justify-content: space-between;
+}
+footer .container .Navigations .all div{
+    margin-right: 60px;
+}
+footer .container .Navigations .all .Sell{
+    margin-right: 100px;
+}
+footer .container .Navigations .all div p{
+    color: gray;
+    line-height: 2;
+}
+
+
+footer .container .Promo{
+    margin-right: 40px;
+}
+footer .container .Promo h2{
+    margin-bottom: 40px;
+}
+footer .container .Promo div{
+    margin-top: 20px;
+}
+footer .container .Promo div a{
+    text-decoration: none;
+    color: #8b38df;
+}
+footer .container .Promo div p{
+    color: gray;
+    margin-top: 5px;
+}
+
+footer .container .Contact h2{
+    margin-bottom: 40px;
+}
+footer .container .Contact .addr{
+    margin-bottom: 60px;
+
+}
+footer .container .Contact .address {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+footer .container .Contact .address i{
+    margin-right: 15px;
+    color: #821be9;
+
+}
+footer .container .Contact .Subscribe {
+    margin-left: 20px;
+}
+footer .container .Contact .Subscribe h3{
+    margin-bottom: 15px;
+}
+footer .container .Contact .Subscribe .send .Email{
+    padding: 10px;
+    width: 260px;
+    position: relative;
+    outline: none;
+}
+footer .container .Contact .Subscribe .send .submit{
+    width: 70px;
+    background-color: #821be9;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    transform: translate(-102%,5%);
+}
+footer .Copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px -30px ;
+}
+footer .Copyright p{
+    color: gray;
+}
+footer .Copyright a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #821be9;
+}
+/* END footer */
