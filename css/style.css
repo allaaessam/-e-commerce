@@ -280,7 +280,13 @@
     background-color: rgb(245, 245, 245);
     margin-top: 100px;
 }
-
+.Featured .writer hr {
+    width: 70px;
+    height: 5px;
+    background-color: #821be9;
+    margin-bottom: 4%;
+    border-radius: 10px;
+}
 .Featured .writer{
     color: black;
     display: flex;
@@ -375,12 +381,21 @@
     width: 100%;
     height: 100vh;
     background-color: white;
+    position: relative;
 }
+
 .Big_Sal .big{
     display: flex;
     justify-content:center;
     align-items: center;
     height: 25%;
+}
+.Big_Sal .big hr {
+    width: 70px;
+    height: 5px;
+    background-color: #821be9;
+    margin-bottom: 4%;
+    border-radius: 10px;
 }
 .Big_Sal .container{
     display: flex;

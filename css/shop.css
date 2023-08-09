@@ -71,6 +71,9 @@
     color: black;
     margin-left: 40px;
 }
+.nav_par .choose .SHOP{
+    color: rgb(158, 5, 158);
+}
 .nav_par .choose a:hover{
     color: rgb(158, 5, 158);
 }
@@ -386,7 +389,7 @@
    width: 70px;
    height: 5px;
    background-color: #821be9; 
-   margin-left: 25%;
+   margin-left: 40%;
    margin-bottom: 15px;
    border-radius: 10px;
 }
